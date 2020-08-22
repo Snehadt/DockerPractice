@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [duck duck go]" parallel="tests">
+  <parameter name="keyWord" value="docker"/>
+  <test name="duck duck go test 1">
+    <parameter name="keyWord" value="java"/>
+    <classes>
+      <class name="com.duckduckgo.test.duckDuckGoTest"/>
+    </classes>
+  </test> <!-- duck duck go test 1 -->
+  <test name="duck duck go test 2">
+    <parameter name="keyWord" value="qa"/>
+    <classes>
+      <class name="com.duckduckgo.test.duckDuckGoTest"/>
+    </classes>
+  </test> <!-- duck duck go test 2 -->
+  <test name="duck duck go test 3">
+    <parameter name="keyWord" value="docker"/>
+    <classes>
+      <class name="com.duckduckgo.test.duckDuckGoTest"/>
+    </classes>
+  </test> <!-- duck duck go test 3 -->
+</suite> <!-- Failed suite [duck duck go] -->

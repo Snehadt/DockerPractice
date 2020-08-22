@@ -1,0 +1,23 @@
+33<suite name="duck duck go" parallel="tests">
+<test name="duck duck go test 1">
+<parameter name="keyWord" value="java" />
+<classes>
+<class name="com.duckduckgo.test.duckDuckGoTest">
+</class>
+</classes>
+</test>
+<test name="duck duck go test 2">
+<parameter name="keyWord" value="qa" />
+<classes>
+<class name="com.duckduckgo.test.duckDuckGoTest">
+</class>
+</classes>
+</test>
+<test name="duck duck go test 3">
+<parameter name="keyWord" value="docker" />
+<classes>
+<class name="com.duckduckgo.test.duckDuckGoTest">
+</class>
+</classes>
+</test>
+</suite>

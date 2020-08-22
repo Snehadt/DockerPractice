@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Book flight]">
+  <parameter name="noOfPassangers" value="3"/>
+  <test name="Book flight">
+    <parameter name="noOfPassangers" value="3"/>
+    <classes>
+      <class name="com.newtours.test.RegistrationTest"/>
+    </classes>
+  </test> <!-- Book flight -->
+  <test name="Book flight(failed)">
+    <parameter name="noOfPassangers" value="3"/>
+    <classes>
+      <class name="com.newtours.test.RegistrationTest">
+        <methods>
+          <include name="RegistrationpageWork"/>
+          <include name="RegistrationCOnfirmationPage"/>
+          <include name="flightSelectionPage"/>
+          <include name="initializethis"/>
+          <include name="flightCOnfirmPage"/>
+          <include name="flightDetails"/>
+        </methods>
+      </class> <!-- com.newtours.test.RegistrationTest -->
+    </classes>
+  </test> <!-- Book flight(failed) -->
+</suite> <!-- Failed suite [Book flight] -->

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Book flight">
+<test name="Book flight">
+<parameter name="noOfPassangers" value="3" />
+<classes>
+<class name="com.newtours.test.RegistrationTest">
+</class>
+</classes>
+</test>
+</suite>
